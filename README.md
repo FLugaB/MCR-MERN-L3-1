@@ -14,10 +14,10 @@ Developer. Also to familiarise the tools and libraries we will be using.
 
 ## Technologies
 
-- MongoDB 3.4.x
-- Express.js 4.16.x
+- MongoDB 
+- Express.js
 - React
-- Node.js v8.x (Use [.nvmrc](https://github.com/creationix/nvm) to manage)
+- Node.js (Use [.nvmrc](https://github.com/creationix/nvm) to manage)
 - ES6
 - Webpack
 
@@ -28,16 +28,10 @@ Developer. Also to familiarise the tools and libraries we will be using.
 - [axios](https://www.npmjs.com/package/axios) - *Optional, make HTTP calls easier
 - React
 
-## Testing
-
-- [jasmine](https://www.npmjs.com/package/jasmine) - Unit Test
-- [protractor](https://www.npmjs.com/package/protractor) - End-to-end Test
-
 ## Bonus
 
 - Use of ES8 async/await
 - Use of WebSocket using socket.io OR uWebSockets
-- Mock responses based on environment development (for testing) vs production (from MongoDB)
 
 ## Task
 
