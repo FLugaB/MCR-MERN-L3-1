@@ -14,7 +14,7 @@ Developer. Also to familiarise the tools and libraries we will be using.
 
 ## Technologies
 
-- MongoDB 
+- MySQL 
 - Express.js
 - React
 - Node.js (Use [.nvmrc](https://github.com/creationix/nvm) to manage)
@@ -23,7 +23,7 @@ Developer. Also to familiarise the tools and libraries we will be using.
 
 ## Libraries
 
-- [mongoose](https://www.npmjs.com/package/mongoose) OR [mongodb](https://www.npmjs.com/package/mongodb) - MongoDB connector
+- [sequelize](https://sequelize.org/) or [bookshelf](https://bookshelfjs.org/)
 - [bluebird](https://www.npmjs.com/package/bluebird) - *Optional, provides a rich Promise API
 - [axios](https://www.npmjs.com/package/axios) - *Optional, make HTTP calls easier
 - React
