@@ -1,5 +1,7 @@
 const User = require('../models/user')
 const { ObjectId } = require('mongodb')
+const { compareHash } = require('../helpers/bycrpt')
+const {  getToken } = require('../helpers/jwt')
 
 const findAllUser = async (req, res, next) => {
     try {
@@ -138,10 +140,36 @@ const updateUser = async (req, res, next) => {
     }
 }
 
+const login = async (req, res, next) => {
+    try {
+        const { email, password } = req.body
+
+        const findUniqueEmail = await User.findUniqueUser(email)
+
+        if (!findUniqueEmail) throw { name: `USER_NOT_FOUND` }
+
+        const verfyPass = compareHash(password, findUniqueEmail.password)
+
+        if (!verfyPass) throw { name: `USER_NOT_FOUND` }
+
+        const payload = { 
+            id: findUniqueEmail.email,
+            role: findUniqueEmail.role
+        }
+
+        const access_token = getToken(payload)
+
+        res.status(200).json({access_token});
+    } catch (error) {
+        next(error);
+    }
+};
+
 module.exports = {
     findAllUser,
     findOneUser,
     createUser,
     removeUser,
-    updateUser
+    updateUser,
+    login
 }
