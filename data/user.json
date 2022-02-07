@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "username": "admin admin",
+      "email": "admin@mail.com",
+      "password": "$2a$12$ts6zToPZd5WS7PheWpif3.pPViY9/AEYwrEEYD56B.uPePMUl8s.i",
+      "role": "admin",
+      "phoneNumber": "+62 8561947117",
+      "address": "Jl. Admin B-A",
+      "createdAt": "2022-01-07 10:19:32.831+07",
+      "updatedAt": "2022-01-07 10:19:32.831+07"
+    },
+    {
+      "id": 2,
+      "username": "admin2 admin2",
+      "email": "admin2@mail.com",
+      "password": "$2a$12$ET/dM9Kp6TN.f7jciOzHFe6HQaPPpgecg8THLawrc9UcB2ygfOiee",
+      "role": "admin",
+      "phoneNumber": "+62 8561947117",
+      "address": "Jl. Admin B-A",
+      "createdAt": "2022-01-07 23:27:29.592+07",
+      "updatedAt": "2022-01-07 23:27:29.592+07"
+    }
+]
