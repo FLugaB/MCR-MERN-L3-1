@@ -1,0 +1,4 @@
+"id","username","email","password","role","phoneNumber","address","createdAt","updatedAt"
+1,"admin admin","admin@mail.com","$2a$12$ts6zToPZd5WS7PheWpif3.pPViY9/AEYwrEEYD56B.uPePMUl8s.i","admin","+62 8561947117","Jl. Admin B-A","2022-01-07 10:19:32.831+07","2022-01-07 10:19:32.831+07"
+2,"admin2 admin2","admin2@mail.com","$2a$12$ET/dM9Kp6TN.f7jciOzHFe6HQaPPpgecg8THLawrc9UcB2ygfOiee","admin","+62 8561947117","Jl. Admin B-A","2022-01-07 23:27:29.592+07","2022-01-07 23:27:29.592+07"
+15,"admin admin","admin3@mail.com","$2a$12$Jnni5kZkugI/mgid7GilqObFTSdaVRwaTs52jBQhHAvchW5kl6s5u","admin","+62 856","123","2022-01-08 03:00:58.576+07","2022-01-08 03:00:58.576+07"
